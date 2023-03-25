@@ -113,6 +113,17 @@ if cho=='easy':
     sum7 = sum5 + sum6 + sum4
 
     print("                               FINAL SCORE FOR PLAYER1: %d" % sum7)
+    elif cho=='EASY':
+    l1 = ['lud', 'del', 'led', 'eld', 'use', 'sue', 'sel', 'leu', 'lsd', 'els', 'LUD', 'DEL', 'LED', 'ELD', 'USE',
+          'SUE', 'SEL', 'LEU', 'LSD', 'ELS']
+    l2 = ['duel', 'leud', 'lude', 'luds', 'dels', 'deus', 'dues', 'elds', 'lues', 'seul', 'sled', 'slue', 'sued',
+          'used', 'DUEL', 'LEUD', 'LUDE', 'LUDS', 'DELS', 'DEUS', 'DUES', 'ELDS', 'LUES', 'SEUL', 'SLED', 'SLED',
+          'SUED', 'USED']
+    l3 = ['duels', 'dulse', 'leuds', 'ludes', 'slued', 'DUELS', 'DULSE', 'LEUDS', 'LUDES', 'SLUED']
+    print("                                              PLAYER 1")
+    print("                                             S/L/E/D/U")
+    sum = 0
+    print("THREE LETTER WORDS ONLY!")
 
     for i in range(3):
         val = str(input("enter ur word: "))
