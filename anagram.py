@@ -327,7 +327,7 @@ elif cho=='medium':
         val8 = str(input("enter ur word: "))
         if val8 in l4:
             sum8 += 1200
-            print("your score is: %d" % sum8)
+            print("your Score is: %d" % sum8)
         else:
             print("INVALID OR ALREADY USED BY PLAYER 1")
     print(" ")
@@ -363,7 +363,7 @@ elif cho=='MEDIUM':
     print("FOUR LETTER WORDS ONLY!")
     sum2 = 0
     for i in range(3):
-        val2 = str(input("enter ur word: "))
+        val2 = str(input("Enter ur word: "))
         if val2 in l2:
             sum2 += 200
             print("your score is: %d" % sum2)
@@ -575,7 +575,7 @@ elif cho=='HARD':
         val8 = str(input("enter ur word: "))
         if val8 in l4:
             sum8 += 1200
-            print("your score is: %d" % sum8)
+            print("Your score is: %d" % sum8)
         else:
             print("INVALID OR ALREADY USED BY PLAYER 1")
     print(" ")
