@@ -27,7 +27,7 @@ if cho=='easy':
     sum = 0
     print("THREE LETTER WORDS ONLY!")
     for i in range(3):
-        val = str(input("enter ur word: "))
+        val = str(input("Enter ur word: "))
         if val in l1:
             sum += 100
             print("your score is: %d" % sum)
@@ -139,7 +139,7 @@ elif cho=='EASY':
     print("FOUR LETTER WORDS ONLY!")
     sum1 = 0
     for i in range(3):
-        val1 = str(input("enter ur word: "))
+        val1 = str(input("Enter ur word: "))
         if val1 in l2:
             sum1 += 200
             print("your score is: %d" % sum1)
@@ -171,7 +171,7 @@ elif cho=='EASY':
     sum4 = 0
     print("THREE LETTER WORDS ONLY!")
     for i in range(3):
-        val3 = str(input("enter ur word: "))
+        val3 = str(input("Enter ur word: "))
         if val3 in l1:
             sum4 += 100
             print("your score is: %d" % sum4)
